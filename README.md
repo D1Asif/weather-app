@@ -1,8 +1,13 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application shows you weather data of your desired location. [Live Site](https://weather-app-pi-kohl.vercel.app/)
 
-Currently, two official plugins are available:
+## Features:
+1. The app asks for location permission and shows the weather data of user's location.
+2. User can search for weather data of other regions, too.
+3. The search function is debounced to save from so many API calls
+4. User can favorite or unfavorite a location and then find it in the Favorite modal and quickly bring the weather data of favorite regions by just clicking the locations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies used:
+1. Open Weather Map API to fetch weather data
+2. React. Implemented builtin hooks e.g. useState, useEffect and custom hooks, context API etc.
